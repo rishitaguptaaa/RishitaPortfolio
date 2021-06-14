@@ -217,17 +217,17 @@ section .title::after {
 }
 .about .about-content .left {
 	width: 45%;
-    padding-right: 100px;
 }
 .about .about-content .left img {
 	height: 400px;
 	width: 400px;
 	object-fit: cover;
-	border-radius: 6px;
+	border-radius: 10px;
 }
 .about .about-content .right {
 	width: 55%;
 	color: ghostwhite;
+    padding-left: 20px;
 }
 .about .about-content .right .text {
 	font-size: 25px;
@@ -320,11 +320,9 @@ section .title::after {
 	content: "How far have I come?";
 	background-color: black;
 	color: blueviolet;
-    width: fit-content;
 }
 .skills .title::before {
 	color: ghostwhite;
-
 }
 .skills .skills-content .column {
 	width: calc(50% - 30px);
