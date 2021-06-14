@@ -217,7 +217,7 @@ section .title::after {
 }
 .about .about-content .left {
 	width: 45%;
-	padding-right: 100px;
+    padding-right: 100px;
 }
 .about .about-content .left img {
 	height: 400px;
