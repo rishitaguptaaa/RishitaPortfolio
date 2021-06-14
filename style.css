@@ -319,6 +319,7 @@ section .title::after {
 	content: "How far have I come?";
 	background-color: black;
 	color: blueviolet;
+	width: fit-content;
 }
 .skills .title::before {
 	color: ghostwhite;
