@@ -121,10 +121,12 @@ section .title::after {
 	transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-	color: grey;
+	color: black;
+	transition: all 0.4s ease;
 }
 .navbar.sticky .menu li a:hover {
-	color: grey;
+	color: black;
+	transition: all 0.4s ease;
 }
 
 /*menu bar styling*/
@@ -297,8 +299,10 @@ section .title::after {
 	transition: all 0.3s ease;
 	padding: 20px;
 }
-.interests .serv-content .card:hover .box {
-	transform: scale(1.05);
+.interests .serv-content .card:hover  {
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
 }
 .interests .serv-content .card i {
 	font-size: 50px;
@@ -320,7 +324,6 @@ section .title::after {
 	content: "How far have I come?";
 	background-color: black;
 	color: blueviolet;
-	width: fit-content;
 }
 .skills .title::before {
 	color: ghostwhite;
@@ -414,7 +417,7 @@ section .title::after {
 	margin-right: 10px;
 }
 .projects .carousel .card:hover {
-	background: grey;
+	background: lightgrey;
 	color: lavenderblush;
 }
 .projects .carousel .card .box {
@@ -431,6 +434,16 @@ section .title::after {
 	font-size: 30px;
 	font-weight: 500;
 	margin: 10px 0 7px 0;
+	color: black;
+}
+.projects .carousel .card p{
+	color: black;
+}
+.projects .carousel .card:hover p{
+	color: blueviolet;
+}
+.projects .carousel .card:hover .text{
+	color: darkorchid;
 }
 .projects .carousel .card img {
 	height: 150px;
@@ -673,19 +686,6 @@ footer span .social a:nth-child(4):hover {
 		line-height: 38px;
 	}
 }
-
-/* @media (max-width: 650px) {
-	.interests .serv-content {
-		display: block;
-	}
-	.projects .carousel {
-		display: block;
-	}
-	.connect .connect-content .column {
-		width: calc(99%);
-	}
-} */
-
 @media (min-width: 650px) {
 	.interests .serv-content {
 		display: flex;
